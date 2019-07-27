@@ -1,0 +1,67 @@
+<div class="container" >
+    <div class="col-md-6">
+        <div class="login-table">
+            <span class="login-table-border"></span>
+        </div>
+        <div class="login-center">
+            <header class="login-header">
+                <div class="fa fa-lock" style="font-size:24px; display: inline;">
+                    <h1 style="margin: 10px;">Secure Online Login </h1>
+                </div>
+            </header>
+            <section>
+                <form (ngSubmit)="onSubmit()">
+                    <div class="login-form-sub">
+                        <p>Please enter your Online User ID and Password.</p>
+                    </div>
+                    <div class="login-form-input">
+                        <div class="form-group">
+                            <label for="UserID"> <strong>Online User ID</strong> </label>
+                            <input tabindex="1" type="text" class="form-control" id="UserID" name="UserID" [(ngModel)]="UserID" autocomplete="off" maxlength="20">
+                        </div>
+                        <div>
+                            <label for="Password"><strong>Password</strong></label>
+                            <input tabindex="2" type="password" class="form-control" id="Password" name="Password" [(ngModel)]="Password" autocomplete="off" maxlength="20">
+                        </div>
+                        <div class="form-actions">
+                            <input type="submit" class="btn btn-success" tabindex="3" data-trigger="next" value="LOGIN"> 
+                            <a tabindex="4" href="/" class="cancel">Cancel</a>           
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="login-center" style="margin-top: 62px; margin-left: 70px;">
+            <div class="login-header">
+            <div class="fa fa-exclamation-triangle" style="font-size:24px; display: inline;"></div>
+            <h1 style="margin: 10px;">Trouble logging in &amp; Enrollment</h1> </div>
+            <div class="login-form-sub">
+                <p>Please choose from one of the options below</p> </div>
+                    <div class="panel-group login-sidebar-container">
+                        <div class="panel panel-default" >
+                            <div class="panel-heading sidebar-heading">
+                                <h3 class="panel-title sidebar-title">
+                                    <section data-toggle="collapse" href="#collapsing">
+                                        <a class="accordion-toggle" data-toggle="collapse" href="#collapsing">Trouble Logging In &amp; Enrollment </a>
+                                    </section>
+                                </h3>
+                            </div>
+                        <div id="collapsing" class="panel-collapse collapse">
+                            <ul class="list-group sidebar-list">
+                                <li class="list-group-item sidebar-item">For Trouble logging in, Please click here :  
+                                    <a href="/"> <button type="button"class="btn btn-danger"> TROUBLE LOGGING IN </button></a>
+                                </li>
+                                <li class="list-group-item sidebar-item">For Enrollment, Please click here :
+                                    <a href="/"><button type="button" class="btn btn-danger"> ENROLLMENT </button></a>
+                                </li>
+                            </ul>
+                            <!--- <div class="panel-footer"></div> -->
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+        </div>
+    </div>
+

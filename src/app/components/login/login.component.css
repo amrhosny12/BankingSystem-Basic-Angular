@@ -1,0 +1,126 @@
+
+.login-table {
+   margin-bottom: 20px;   
+}
+
+.login-center {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.login-table-border {
+    display: block;
+    height: 10px;
+    max-width: 550px;
+    margin-top: 10px;
+    background: #B22222;
+}
+
+.login-table-content {
+    border: 1px solid #ADAFB0;
+    border-top: 0;
+    background: #FBFCFC;
+}
+
+.login-content-container {
+    position: relative;
+    background: #F2F9F8;
+}
+
+.login-header h1{
+    font-family: Impact, Charcoal, sans-serif;
+    color: #556B2F;
+    font-size: 15px;
+    line-height: 1em;
+    font-size:24px; 
+    display: inline;
+}
+
+.login-form-sub p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.login-form-input input[type=text], input[type=password] {
+    width: 300px;
+    padding: 100;
+    font-size: 14px;
+    text-indent: 8px;
+    display: block;
+}
+
+.form-actions {
+    margin-top: 25px;
+}
+
+.form-actions a{
+    margin-left: 20px;
+    font-size: 15px;
+    color:	#B22222;
+}
+
+
+/* ================================== */
+
+.sidebar-heading{
+    width: 100%;
+}
+
+.sidebar-container{
+    border: 1px solid #C7C9CA;
+    background-color: #556B2F;
+}
+
+.sidebar-content {
+    background-color: #fff;
+}
+
+.sidebar-title {
+    
+    padding: 20px 100px;
+    font-family:"Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.sidebar-title h3, a{
+    display: inline;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 17px;
+    color: #556B2F;
+}
+
+.sidebar-list{
+    font-family:"Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background-color: #556B2F;
+    
+}
+
+.sidebar-item button {
+   margin: 10px;
+   display: block;
+}
+
+.sidebar-item a {
+    text-decoration: none;
+    display: block;
+}
+
+.panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';  
+    content: "\e114"; 
+    float: right;      
+    color: grey; 
+    padding-left: 10px;
+    margin-top: 5px;     
+}
+.panel-heading .accordion-toggle.collapsed:after {
+   
+    content: "\e080";  
+    padding-left: 10px;
+    margin-bottom: 5px;  
+}
